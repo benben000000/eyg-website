@@ -1,0 +1,51 @@
+{
+  "version": 3,
+  "products": [
+    { "id": "p01", "sku": "SKU-0001", "name": "Fully Synthetic 5W-30 (4L)", "brand": "EYG Select", "type": "consumable", "forVehicle": "Sedan / SUV", "price": 2850, "cost": 1900, "unit": "btl", "trackStock": true, "stock": 14, "reorderPoint": 6, "active": true },
+    { "id": "p02", "sku": "SKU-0002", "name": "Semi Synthetic 10W-40 (4L)", "brand": "EYG Select", "type": "consumable", "forVehicle": "Sedan / MPV", "price": 1950, "cost": 1300, "unit": "btl", "trackStock": true, "stock": 9, "reorderPoint": 6, "active": true },
+    { "id": "p03", "sku": "SKU-0003", "name": "Oil Filter — Vios / Wigo / Avanza", "brand": "OEM", "type": "part", "forVehicle": "Toyota", "price": 350, "cost": 180, "unit": "pc", "trackStock": true, "stock": 22, "reorderPoint": 10, "active": true },
+    { "id": "p04", "sku": "SKU-0004", "name": "Oil Filter — City / Brio / Mobilio", "brand": "OEM", "type": "part", "forVehicle": "Honda", "price": 380, "cost": 200, "unit": "pc", "trackStock": true, "stock": 4, "reorderPoint": 8, "active": true },
+    { "id": "p05", "sku": "SKU-0005", "name": "Air Filter — Vios / Yaris", "brand": "OEM", "type": "part", "forVehicle": "Toyota", "price": 650, "cost": 380, "unit": "pc", "trackStock": true, "stock": 11, "reorderPoint": 5, "active": true },
+    { "id": "p06", "sku": "SKU-0006", "name": "Cabin Filter — Universal", "brand": "OEM", "type": "part", "forVehicle": "Universal", "price": 550, "cost": 300, "unit": "pc", "trackStock": true, "stock": 3, "reorderPoint": 6, "active": true },
+    { "id": "p07", "sku": "SKU-0007", "name": "Brake Pads Front — Vios / Avanza", "brand": "Bendix", "type": "part", "forVehicle": "Toyota", "price": 1850, "cost": 1200, "unit": "set", "trackStock": true, "stock": 6, "reorderPoint": 4, "active": true },
+    { "id": "p08", "sku": "SKU-0008", "name": "Brake Fluid DOT4 (500ml)", "brand": "Prestone", "type": "consumable", "forVehicle": "Universal", "price": 420, "cost": 260, "unit": "btl", "trackStock": true, "stock": 16, "reorderPoint": 6, "active": true },
+    { "id": "p09", "sku": "SKU-0009", "name": "Car Shampoo + Wax (1L)", "brand": "EYG Select", "type": "consumable", "forVehicle": "Shop use / retail", "price": 380, "cost": 210, "unit": "btl", "trackStock": true, "stock": 20, "reorderPoint": 8, "active": true },
+    { "id": "p10", "sku": "SKU-0010", "name": "Tire Black Dressing (500ml)", "brand": "EYG Select", "type": "consumable", "forVehicle": "Shop use / retail", "price": 250, "cost": 130, "unit": "btl", "trackStock": true, "stock": 0, "reorderPoint": 6, "active": true },
+    { "id": "p11", "sku": "SKU-0011", "name": "12V Battery — NS60 / 2SM", "brand": "Amaron", "type": "part", "forVehicle": "Sedan / SUV", "price": 6800, "cost": 5400, "unit": "pc", "trackStock": true, "stock": 5, "reorderPoint": 3, "active": true },
+    { "id": "p12", "sku": "SKU-0012", "name": "Wiper Blade 22in + 16in Set", "brand": "Bosch", "type": "accessory", "forVehicle": "Universal", "price": 750, "cost": 450, "unit": "set", "trackStock": true, "stock": 13, "reorderPoint": 5, "active": true }
+  ],
+  "services": [
+    { "id": "s01", "name": "Change Oil + Filter", "desc": "4L oil, oil filter, 21-point check. 45 min.", "basePrice": 0, "laborMins": 45, "linkedProductIds": ["p01", "p03"], "active": true },
+    { "id": "s02", "name": "PMS (5,000 km)", "desc": "Oil, filters, brakes, fluids, belts. 90 min.", "basePrice": 1200, "laborMins": 90, "linkedProductIds": ["p01", "p03", "p05"], "active": true },
+    { "id": "s03", "name": "Car Wash + Vacuum", "desc": "Foam wash, vacuum, tire black. 30 min.", "basePrice": 250, "laborMins": 30, "linkedProductIds": [], "active": true },
+    { "id": "s04", "name": "Interior Detail", "desc": "Seats, ceiling, dashboard, vacuum. 3 hrs.", "basePrice": 2200, "laborMins": 180, "linkedProductIds": [], "active": true },
+    { "id": "s05", "name": "Exterior Detail + Wax", "desc": "Wash, clay, machine wax. 3 hrs.", "basePrice": 2500, "laborMins": 180, "linkedProductIds": ["p09"], "active": true },
+    { "id": "s06", "name": "Brake Service", "desc": "Clean, adjust, fluid top-up. 60 min.", "basePrice": 800, "laborMins": 60, "linkedProductIds": ["p08"], "active": true },
+    { "id": "s07", "name": "Undercoating", "desc": "Rust-proof, 1-yr warranty. 2 hrs.", "basePrice": 3500, "laborMins": 120, "linkedProductIds": [], "active": true },
+    { "id": "s08", "name": "Battery Check + Replace", "desc": "Free check. Replacement with 12-mo warranty.", "basePrice": 200, "laborMins": 20, "linkedProductIds": ["p11"], "active": true }
+  ],
+  "lots": [],
+  "movements": [],
+  "sales": [
+    { "id": "S-2026-0911", "at": "2026-09-28T09:12:00+08:00", "byUserId": "u-staff", "customerName": "J. Dela Cruz", "plate": "NCA 1234", "subtotal": 3200, "discount": 0, "total": 3200, "payMethod": "cash", "status": "completed" },
+    { "id": "S-2026-0912", "at": "2026-09-29T14:40:00+08:00", "byUserId": "u-staff", "customerName": "M. Santos", "plate": "DAA 8821", "subtotal": 250, "discount": 0, "total": 250, "payMethod": "gcash", "status": "completed" },
+    { "id": "S-2026-0913", "at": "2026-10-01T10:05:00+08:00", "byUserId": "u-admin", "customerName": "R. Aquino", "plate": "NBB 5510", "subtotal": 4700, "discount": 200, "total": 4500, "payMethod": "cash", "status": "completed" },
+    { "id": "S-2026-0914", "at": "2026-10-02T16:20:00+08:00", "byUserId": "u-staff", "customerName": "L. Reyes", "plate": "XYZ 7788", "subtotal": 800, "discount": 0, "total": 800, "payMethod": "cash", "status": "completed" }
+  ],
+  "saleItems": [
+    { "id": "si-01", "saleId": "S-2026-0911", "kind": "product", "refId": "p01", "name": "Fully Synthetic 5W-30 (4L)", "qty": 1, "unitPrice": 2850, "lineTotal": 2850 },
+    { "id": "si-02", "saleId": "S-2026-0911", "kind": "product", "refId": "p03", "name": "Oil Filter — Vios", "qty": 1, "unitPrice": 350, "lineTotal": 350 },
+    { "id": "si-03", "saleId": "S-2026-0912", "kind": "service", "refId": "s03", "name": "Car Wash + Vacuum", "qty": 1, "unitPrice": 250, "lineTotal": 250 },
+    { "id": "si-04", "saleId": "S-2026-0913", "kind": "service", "refId": "s02", "name": "PMS (5,000 km)", "qty": 1, "unitPrice": 4700, "lineTotal": 4700 }
+  ],
+  "users": [
+    { "id": "u-admin", "name": "Shop Admin", "pin": "1234", "role": "admin", "active": true },
+    { "id": "u-staff", "name": "Counter Staff", "pin": "0000", "role": "staff", "active": true }
+  ],
+  "siteBlocks": [
+    { "id": "b-hero", "type": "hero", "order": 1, "visible": true, "data": { "kicker": "AUTO CARE — BULACAN", "title": "PMS IN 45 MINUTES. RECORD KEPT.", "sub": "Change oil, preno, pang-ilalim. Dalhin lang, check muna natin. Presyong shop, walang tago.", "cta1": "Magpa-check sa shop", "cta2": "Tingnan ang presyo" } },
+    { "id": "b-notice", "type": "notice", "order": 2, "visible": true, "data": { "text": "Open Mon–Sat 8:00AM–5:30PM. Message us on Facebook for booking. Price board below is current as of today." } },
+    { "id": "b-hours", "type": "hours", "order": 3, "visible": true, "data": { "weekdays": "Mon–Sat: 8:00AM – 5:30PM", "sunday": "Sun: Closed", "note": "Cut-off for PMS: 3:30PM. Walk-in wash until 5:00PM." } },
+    { "id": "b-contact", "type": "contact", "order": 4, "visible": true, "data": { "facebook": "https://www.facebook.com/profile.php?id=61582418828014", "phone": "TBD — message Facebook page", "address": "Bulacan — exact address to confirm with owner" } }
+  ]
+}

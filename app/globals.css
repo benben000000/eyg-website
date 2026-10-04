@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --eyg-charcoal-950: #131417;
+  --eyg-charcoal-900: #1C1E22;
+  --eyg-charcoal-700: #2E3238;
+  --eyg-steel-500: #6B7280;
+  --eyg-steel-300: #C8CDD4;
+  --eyg-steel-100: #E8EAED;
+  --eyg-paper: #FFFFFF;
+  --eyg-offwhite: #F6F3EC;
+  --eyg-amber-600: #C96A0A;
+  --eyg-amber-500: #E8861A;
+  --eyg-border: 1px solid #C8CDD4;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
+  background: var(--eyg-offwhite);
+  color: var(--eyg-charcoal-900);
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: "Barlow Condensed", "Arial Narrow", "Helvetica Neue Condensed", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+
+.tnum, .tnum * {
+  font-variant-numeric: tabular-nums;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+/* Flat hairline card — no glow */
+.ledger {
+  background: #fff;
+  border: 1px solid #C8CDD4;
+  border-radius: 8px;
+}
+
+.ledger-dark {
+  background: #1C1E22;
+  border: 1px solid #2E3238;
+  border-radius: 8px;
+  color: #F6F3EC;
+}
+
+.btn-primary {
+  background: #1C1E22;
+  color: #fff;
+  border: 1px solid #1C1E22;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.btn-primary:hover { background: #2E3238; }
+.btn-amber {
+  background: #E8861A;
+  color: #131417;
+  border: 1px solid #C96A0A;
+  border-radius: 6px;
+  font-weight: 700;
+}
+.btn-amber:hover { background: #F5A524; }
+.btn-ghost {
+  background: #fff;
+  color: #1C1E22;
+  border: 1px solid #C8CDD4;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.btn-ghost:hover { border-color: #1C1E22; }
+
+:focus-visible {
+  outline: 2px solid #E8861A;
+  outline-offset: 2px;
+}
+
+/* Flat status tags — rectangular, no glow, no pulse */
+.tag {
+  display: inline-block;
+  border: 1px solid #C8CDD4;
+  border-radius: 2px;
+  padding: 1px 6px;
+  font-family: ui-monospace, Menlo, Consolas, monospace;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  line-height: 1.6;
+}
+.tag-ok { background: #fff; border-color: #2F7D4F; color: #2F7D4F; }
+.tag-low { background: #FEF3C7; border-color: #92400E; color: #92400E; }
+.tag-out { background: #131417; border-color: #131417; color: #fff; }
+.tag-info { background: #E8EAED; border-color: #6B7280; color: #1C1E22; }
+
+.hairline { border-color: #C8CDD4; }
+
+/* Receipt print */
+@media print {
+  .no-print { display: none !important; }
+  body { background: #fff; }
+}
+
+/* Skeleton — only place animate-pulse is allowed */
+.skeleton {
+  background: #E8EAED;
+  border-radius: 4px;
+}

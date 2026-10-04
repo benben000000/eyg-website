@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+<rect width="1200" height="900" fill="#1C1E22"/>
+<rect y="640" width="1200" height="260" fill="#131417"/>
+<g stroke="#2E3238" stroke-width="2">
+<line x1="0" y1="700" x2="1200" y2="700"/>
+<line x1="0" y1="760" x2="1200" y2="760"/>
+<line x1="0" y1="820" x2="1200" y2="820"/>
+</g>
+<rect x="120" y="300" width="560" height="340" fill="none" stroke="#E8861A" stroke-width="10"/>
+<rect x="150" y="380" width="500" height="180" fill="#F6F3EC"/>
+<rect x="150" y="380" width="500" height="44" fill="#E8861A"/>
+<text x="170" y="412" font-family="Arial Narrow, Arial" font-size="28" font-weight="bold" fill="#131417">EYG AUTO CARE — BAY 1</text>
+<rect x="180" y="450" width="220" height="80" fill="#1C1E22"/>
+<rect x="420" y="450" width="200" height="80" fill="#C8CDD4"/>
+<circle cx="260" cy="590" r="34" fill="#131417" stroke="#C8CDD4" stroke-width="6"/>
+<circle cx="540" cy="590" r="34" fill="#131417" stroke="#C8CDD4" stroke-width="6"/>
+<rect x="760" y="220" width="320" height="420" fill="#F6F3EC"/>
+<rect x="760" y="220" width="320" height="54" fill="#131417"/>
+<text x="782" y="255" font-family="Arial" font-size="22" font-weight="bold" fill="#F6F3EC">JOB CARD</text>
+<text x="782" y="310" font-family="Arial" font-size="20" fill="#1C1E22">PMS — NCA 1234</text>
+<text x="782" y="340" font-family="Arial" font-size="20" fill="#1C1E22">Oil 5W-30 + filter</text>
+<text x="782" y="370" font-family="Arial" font-size="20" fill="#1C1E22">Brakes checked</text>
+<text x="782" y="420" font-family="Arial" font-size="26" font-weight="bold" fill="#1C1E22">45 MIN</text>
+<rect x="782" y="450" width="270" height="56" fill="#E8861A"/>
+<text x="800" y="486" font-family="Arial" font-size="24" font-weight="bold" fill="#131417">RECORD KEPT</text>
+<text x="782" y="560" font-family="Arial" font-size="18" fill="#6B7280">Mon-Sat 8:00-17:30</text>
+<text x="782" y="590" font-family="Arial" font-size="18" fill="#6B7280">Cut-off PMS 15:30</text>
+</svg>
